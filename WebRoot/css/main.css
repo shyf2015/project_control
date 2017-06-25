@@ -1,0 +1,108 @@
+.container{
+	position:relative;
+	background:#eef;
+}
+body{
+	background:#eef;
+}
+.nav{
+	width:100%;
+	min-width:1000px;
+	height:50px;
+	background-color:#99e;
+}
+.nav div{
+	float:left;
+	margin-left:10px;
+}
+.logo{
+	width:100px;
+	height:50px;
+}
+.logo img{
+	width:100%;
+	height:100%;
+}
+.nav .right{
+	position:absolute;
+	right:10px;
+	margin-right:20px;
+	z-index:999;
+}
+.nav div ul{
+	list-style:none;
+}
+.nav div ul li{
+	float:left;
+	line-height:50px;
+	padding-left:30px;
+	padding-right:30px;
+	cursor:pointer;
+}
+.nav div ul li:hover{
+	background-color:#aaf;
+}
+.nav div .set{
+	width:100px;
+	height:50px;
+	overflow:hidden;
+	transition:all 0.5s;
+}
+.nav div .set li{
+	padding-left:10px;
+	padding-right:10px;
+	float:none;
+	cursor:pointer;
+}
+.nav div .set li p{
+	transition:all 0.5s;
+	float:right;
+	display:block;
+	transform:rotate(-90deg);
+}
+.nav div .set:hover{
+	height:200px;
+}
+.nav div .set p:hover{
+	transform:rotate(90deg);
+}
+.container2 .create{
+	display:none;
+	position:fixed;
+	padding:20px;
+	width:300px;
+	height:260px;
+	top:100px;
+	left:50%;
+	margin-left:-160px;
+	background:#bbe;
+	z-index:999;
+}
+.container2 .create .exit{
+	text-align:center;
+	line-height:20px;
+	width:20px;
+	height:20px;
+	background-color:#999;
+	border-radius:50%;
+	cursor:pointer;
+	margin-left:260px;
+	margin-top:-10px;
+	margin-bottom:20px;
+}
+.container2 .create p:hover{
+	background-color:#666;
+}
+
+.container2 .create div{
+	width:300px;
+	height:30px;
+}
+.container2 .create div input{
+	width:200px;
+	height:30px;
+	border:2px solid #88c;
+}
+.font{
+	color:red;
+}

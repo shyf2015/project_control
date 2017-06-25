@@ -1,0 +1,28 @@
+body{
+	background:#ccf;
+}
+.zhuce{
+	margin:80px auto;
+	width:350px;
+	height:400px;
+	background:#bbe;
+	padding:10px;
+	padding-top:20px;
+}
+.zhuce div{
+	margin:8px auto;
+	width:250px;
+	height:30px;
+}
+.zhuce input{
+	width:200px;
+	height:30px;
+	border:2px solid #88c;
+}
+.submit input{
+	width:100px;
+	margin-left:10px;
+}
+.font{
+	color:red;
+}
